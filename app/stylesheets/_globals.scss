@@ -9,7 +9,6 @@ $light-grey: hsl(30, 18%, 87%);
 $wengebrown: hsl(30, 10%, 34%);
 $dark-charcoal: hsl(24, 5%, 18%);
 
-
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 $fs-16: 1rem;
@@ -20,3 +19,14 @@ $fw-700: 700;
 
 $ff-heading: "Young Serif", serif;
 $ff-body: "Outfit", sans-serif;
+
+// Helper Classes
+.heading {
+  font-family: $ff-heading;
+}
+.body {
+  font-family: $ff-body;
+}
+.frame {
+  padding: 25px;
+}
