@@ -1,0 +1,82 @@
+@import 'globals';
+
+body {
+  background-color: $eggshell;
+  width: 100%;
+  height: 100vh;
+  font-family: $ff-body;
+  font-weight: $fw-400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; // Remove these if needed
+
+  main {
+    .heading {
+      font-family: $ff-heading;
+    }
+    .body {
+      font-family: $ff-body;
+    }
+
+    .main__container {
+      background-color: $white;
+      border-radius: 1.5rem;
+      width: 100%;
+      max-width: 46rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .main__container--wrapper {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+
+        .wrapper__img {
+          align-items: center;
+          justify-content: center;
+        
+          img {
+            width: 100%;
+            height: 300px;
+            border-radius: 1.5rem;
+          }
+        }
+
+        .wrapper__content {
+          margin-top: 45px;
+
+          .wrapper__content--title {
+
+            h1 {
+              color: $dark-charcoal;
+              font-size: 40px;
+              font-weight: $fw-400;
+            }
+          }
+
+          .wrapper__content--intro {
+
+            p {
+              font-size: $fs-16;
+              font-weight: $fw-400;
+              color: $wengebrown;
+            }
+          }
+        }
+
+
+
+
+
+
+
+
+      } // END OF MAIN CONTAINER WRAPPER
+    }
+  }
+}
